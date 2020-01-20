@@ -1,13 +1,13 @@
 //Libraries
 import React, { Component } from 'react';
-//Components
 
+//Components
+import HeroComponent from '../components/hero-component.jsx'
 
 class SiteContainer extends Component {
     render() {
         return (
-            <section className="hello-world">
-            </section>
+            <HeroComponent siteStyle="neomorphism"/>
         )
     }
 }
