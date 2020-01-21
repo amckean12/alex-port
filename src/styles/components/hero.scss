@@ -1,15 +1,9 @@
 .hero {
     &__container {
-        text-align: left;
-        padding: 10% 12rem 0 12rem;
-    }
-    &__inner {
-        color: #ffffff;
-        width: 60%;
-        border-left: 2px solid #ffffff;
-    }
-    &__title {
-        @include font-heading-bold;
-        padding-left: 2.5rem;
+        margin: 0 12rem 0 12rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

@@ -8,9 +8,7 @@ import './styles/theme.scss';
 
 function App() {
   return (
-    <div className="App">
-        <SiteContainer />
-    </div>
+    <SiteContainer />
   );
 }
 
