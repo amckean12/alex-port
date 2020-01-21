@@ -13,7 +13,7 @@ const HeroComponent = (props) => {
                     block="hero"
                     element="title"  
                     siteStyle={props.siteStyle}
-                    content="Building amazing sites in Kansas City." />
+                    content="Alex builds wonderful websites in Kansas City." />
             </div>
         </section>
     )
