@@ -3,6 +3,7 @@ import React from 'react'
 
 //Components 
 import TitleElement from './title-element.jsx'
+import CopyElement from './copy-element.jsx'
 
 const HeroComponent = (props) => {
     return(
@@ -14,6 +15,11 @@ const HeroComponent = (props) => {
                     element="title"  
                     siteStyle={props.siteStyle}
                     content="Alex builds wonderful websites in Kansas City." />
+                <CopyElement 
+                    block="hero"
+                    element="copy"  
+                    siteStyle={props.siteStyle}
+                />
             </div>
         </section>
     )
