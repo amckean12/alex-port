@@ -1,15 +1,15 @@
 .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #C0C0C0;
-
+    &__container {
+        text-align: left;
+        padding: 10% 4rem 0 4rem;
+    }
     &__inner {
-        background-color: #eaeaea;
-        margin-bottom: 40px;
-        border-radius: 40px;
-        box-shadow: -6px -6px 20px rgba(255,255,255,1), 
-                    6px 6px 20px rgba(0,0,0,0.1);
+        color: #ffffff;
+        width: 40%;
+        border-left: 2px solid #ffffff;
+    }
+    &__title {
+        @include font-heading-bold;
+        padding-left: 2.5rem;
     }
 }
