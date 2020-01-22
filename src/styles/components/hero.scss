@@ -1,6 +1,9 @@
 .hero {
     &__container {
         margin: 0 12rem 0 12rem;
+        @include phone-only {
+            margin: 0 1rem 0 1rem;
+        }
         height: 88vh;
         display: flex;
         flex-direction: column;
@@ -13,5 +16,13 @@
         width: 60%;
         padding-left: 3rem;
         border-left: 2px solid #ffffff;
+    }
+    &__copy {
+        &:before {
+            @include font-heading-bold;
+            content: "Hi, Im Alex McKean -- "
+        }
+        @include font-heading-light;
+        font-size: 1.2rem;
     }
 }

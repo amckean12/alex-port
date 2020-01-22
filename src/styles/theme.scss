@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap');
 
+//Utils
+@import './utils/responsiveness.scss';
+
 //Variables
 $header-font: 'Montserrat', sans-serif; 
 $body-font: 'Courier Prime', monospace;
