@@ -13,6 +13,11 @@ const SkillsComponent = (props) => {
     return(
         <section className="skills">
             <div className="skills__container">
+                { Content.skills.tools.map((value, index) =>{
+                    return <div className="skills_content-wrapper">
+                                <p>{value.title}</p>
+                            </div>
+                })}
                 <CopyElement 
                     block="skills"
                     element="copy"  

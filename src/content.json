@@ -6,35 +6,35 @@
     },
     "skills": {
         "heading": "What I Use.",
-        "tools": {
-            "foundation": {
+        "tools": [
+            {
                 "title": "Foundation",
                 "value": ["HTML", "CSS", "Javascript"]
             },
-            "preprocessor": {
+            {
                 "title": "CSS Preprocessor",
                 "value": "Sass"
             },
-            "css_framework": {
+            {
                 "title": "CSS Framework",
                 "value": "Bootstrap"
             },
-            "css_architecture": {
+            {
                 "title": "CSS Architecutre",
                 "value": "Block Element Modifier (BEM)"
             },
-            "framework": {
+            {
                 "title": "Frameworks",
                 "value": ["React", "Vue"]
             },
-            "state_management": {
+            {
                 "title": "State Management",
                 "value": "Redux"
             },
-            "testing": {
+            {
                 "title": "Testing",
                 "value": "Cypress.io"
             }
-        }
+        ]
     }
 }
