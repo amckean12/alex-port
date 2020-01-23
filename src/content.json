@@ -5,12 +5,13 @@
         "cta_text": "Learn More"
     },
     "skills": {
-        "heading": "What I Love to Use.",
+        "heading": "Technical Expertise",
+        "subheading": "Taco Taco",
         "tools": [
             {
                 "title": "Foundation",
-                "sub_title": "The core in which everything web is built on.",
-                "skills": ["HTML", "CSS", "Javascript"]
+                "sub_title": "The core front-facing web building blocks.",
+                "skills": ["< HTML >", "{ CSS }", "Javascript"]
             },
             {
                 "title": "CSS Preprocessor",
@@ -28,19 +29,45 @@
                 "skills": ["Block Element Modifier (BEM)"]
             },
             {
-                "title": "Frameworks",
-                "sub_title": "The core in which everything web is build on.",
-                "skills": ["React", "Vue"]
+                "title": "Javascript Frameworks",
+                "sub_title": "",
+                "skills": ["< React />", "< Vue />"]
             },
             {
-                "title": "State Management",
-                "sub_title": "Helping solve one of the harder parts of application development",
-                "skills": ["Redux"]
+                "title": "Libraries",
+                "sub_title": "Helping us avoid reinventing the wheel.",
+                "skills": ["$ jQuery", "Redux"]
             },
             {
                 "title": "Testing",
                 "sub_title": "Reducing our code debt.",
                 "skills": ["Cypress.io"]
+            },
+            {
+                "title": "Version Control",
+                "sub_title": "Keeps track of everything we do.",
+                "skills": ["git", "github"]
+            },
+            {
+                "title": "Backend Applications",
+                "sub_title": "This is the machinary that works behind the scenes.",
+                "skills": ["Ruby", "Rails", "Python", "Django"]
+            }
+        ]
+    },
+    "work": {
+        "heading": "Technical Expertise",
+        "subheading": "Taco Taco",
+        "work_experience": [
+            {
+                "company": "Legalfit",
+                "title": "Frontend Developer - Project Lead",
+                "description": "Hello World"   
+            },
+            {
+                "company": "MV Pipelines",
+                "title": "Product Engineer (Co-op)",
+                "description": "Hello World"   
             }
         ]
     }

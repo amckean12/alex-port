@@ -1,5 +1,6 @@
 .skills {
-    height: 100vh;
+    padding: 2rem 0;
+    height: auto;
     background-color: #181A1B;
     box-shadow: 0px 0 30px rgba(0, 0, 0, 0.3);
     &__container {
@@ -31,6 +32,7 @@
     &__content-wrapper {
         display: inline-block;
         width: 45%;
+        padding: 1rem 0;
         &:nth-child(odd){
             padding-right: 5%;
         }
