@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 //Components
 import HeaderComponent from '../components/header-component.jsx'
 import HeroComponent from '../components/hero-component.jsx'
+import ProfileComponent from '../components/profile-component.jsx'
 import SkillsComponent from '../components/skills-component.jsx'
 
 class SiteContainer extends Component {

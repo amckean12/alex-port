@@ -5,35 +5,42 @@
         "cta_text": "Learn More"
     },
     "skills": {
-        "heading": "What I Use.",
+        "heading": "What I Love to Use.",
         "tools": [
             {
                 "title": "Foundation",
-                "value": ["HTML", "CSS", "Javascript"]
+                "sub_title": "The core in which everything web is built on.",
+                "skills": ["HTML", "CSS", "Javascript"]
             },
             {
                 "title": "CSS Preprocessor",
-                "value": "Sass"
+                "sub_title": "Extending the capabilities of CSS.",
+                "skills": ["Sass"]
             },
             {
                 "title": "CSS Framework",
-                "value": "Bootstrap"
+                "sub_title": "Allowing us to rapidally create the structure of a site",
+                "skills": ["Bootstrap"]
             },
             {
                 "title": "CSS Architecutre",
-                "value": "Block Element Modifier (BEM)"
+                "sub_title": "Gives us a predictable, reusable, maintainable, and scalable frontend codebase.",
+                "skills": ["Block Element Modifier (BEM)"]
             },
             {
                 "title": "Frameworks",
-                "value": ["React", "Vue"]
+                "sub_title": "The core in which everything web is build on.",
+                "skills": ["React", "Vue"]
             },
             {
                 "title": "State Management",
-                "value": "Redux"
+                "sub_title": "Helping solve one of the harder parts of application development",
+                "skills": ["Redux"]
             },
             {
                 "title": "Testing",
-                "value": "Cypress.io"
+                "sub_title": "Reducing our code debt.",
+                "skills": ["Cypress.io"]
             }
         ]
     }

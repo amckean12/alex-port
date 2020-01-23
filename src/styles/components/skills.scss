@@ -5,4 +5,28 @@
     &__container {
         margin: 0 12rem 0 12rem;
     }
+    &__title {
+        padding-top: 2rem;
+    }
+    &__accent {
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #ffffff;
+    }
+    &__content-wrapper {
+        display: inline-block;
+        width: 45%;
+        &:nth-child(odd){
+            padding-right: 5%;
+        }
+        &:nth-child(even){
+            padding-left: 5%;
+        }
+    }
+    &__tool-title{
+        margin: auto;
+    }
+    &__tool-sub-title {
+        color: #8f9496;
+    }
 }
