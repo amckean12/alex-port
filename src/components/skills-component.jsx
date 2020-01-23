@@ -44,14 +44,17 @@ const SkillsComponent = (props) => {
                                     block="skills"
                                     siteStyle={props.siteStyle}
                                 />
-                                { value.skills.map((value, index) =>{
-                                    return <CopyElement
-                                        block="skills"
-                                        element="copy"  
-                                        siteStyle={props.siteStyle}
-                                        content={value} 
-                                    />
-                                })} 
+                                <div class="skills__tool-wrapper">
+                                    { value.skills.map((value, index) =>{
+                                        return <CopyElement
+                                            block="skills"
+                                            element="copy"
+                                            modifier="box-display"  
+                                            siteStyle={props.siteStyle}
+                                            content={value} 
+                                        />
+                                    })}
+                                </div> 
                             </div>
                 })}
             </div>

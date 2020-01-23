@@ -5,6 +5,21 @@
     &__container {
         margin: 0 12rem 0 12rem;
     }
+    &__inner {
+        //For each individual "tool" component
+        &--box-display {
+            display: flex;
+            justify-content: center;
+            width: 30%;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid #ffffff;
+            transition: .25s ease-in-out;
+            &:hover {
+                background-color: #141414;
+            }
+        }
+    }
     &__title {
         padding-top: 2rem;
     }
@@ -28,5 +43,11 @@
     }
     &__tool-sub-title {
         color: #8f9496;
+    }
+    &__tool-wrapper {
+        @include font-heading-regular;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
     }
 }
