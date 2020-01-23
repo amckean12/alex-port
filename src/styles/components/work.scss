@@ -1,0 +1,19 @@
+.work {
+    position: relative;
+    background-color: #141414;
+    padding: 2rem 0;
+
+    &__heading-wrapper {
+        margin: 0 12rem;
+    }
+
+    &__sub-heading {
+        color: #8f9496;
+    }
+
+    &__accent {
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #ffffff;
+    }
+}

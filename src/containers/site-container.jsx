@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 //Components
 import HeaderComponent from '../components/header-component.jsx'
 import HeroComponent from '../components/hero-component.jsx'
-import ProfileComponent from '../components/profile-component.jsx'
 import SkillsComponent from '../components/skills-component.jsx'
+import WorkComponent from '../components/work-component.jsx';
 
 class SiteContainer extends Component {
     render() {
@@ -14,6 +14,7 @@ class SiteContainer extends Component {
                 <HeaderComponent siteStyle="dark-minimal" />
                 <HeroComponent siteStyle="dark-minimal" />
                 <SkillsComponent siteStyle="dark-minimal" />
+                <WorkComponent siteStyle="dark-minimal" />
             </div>
         )
     }

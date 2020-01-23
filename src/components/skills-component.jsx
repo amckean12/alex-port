@@ -19,7 +19,8 @@ const SkillsComponent = (props) => {
                     block="skills"
                     element="title"  
                     siteStyle={props.siteStyle}
-                    content={Content.skills.heading} />
+                    content={Content.skills.heading} 
+                />
                 <AccentElement
                      block="skills"
                      siteStyle={props.siteStyle}
