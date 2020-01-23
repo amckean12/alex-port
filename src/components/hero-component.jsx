@@ -2,9 +2,9 @@
 import React from 'react'
 
 //Components 
-import TitleElement from './title-element.jsx'
+import AccentElement from './accent-element.jsx'
 import CopyElement from './copy-element.jsx'
-import ButtonElement from './button-element.jsx'
+import TitleElement from './title-element.jsx'
 
 //Content
 import Content from '../content.json'
@@ -19,18 +19,15 @@ const HeroComponent = (props) => {
                     element="title"  
                     siteStyle={props.siteStyle}
                     content={Content.hero.heading} />
-                {console.log()}
+                <AccentElement 
+                    block= "hero"
+                    siteStyle={props.siteStyle}
+                />
                 <CopyElement 
                     block="hero"
                     element="copy"  
                     siteStyle={props.siteStyle}
                     content={Content.hero.subheading}
-                />
-                <ButtonElement
-                    block="hero"
-                    element="button"
-                    siteStyle ={props.siteStyle}
-                    content={Content.hero.cta_text}
                 />
             </div>
         </section>

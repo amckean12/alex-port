@@ -1,6 +1,7 @@
 .hero {
     &__container {
         margin: 0 12rem 0 12rem;
+        padding-top: 8rem;
         @include phone-only {
             margin: 0 1rem 0 1rem;
         }
@@ -11,16 +12,24 @@
     }
     &__inner {
         &:first-of-type{
-            padding-top: 11rem;
+            width: 60%;
         }
-        width: 60%;
-        padding-left: 3rem;
-        border-left: 2px solid #ffffff;
+    }
+    &__accent {
+        &:before {
+            content: "";
+            width: 20%;
+            border-bottom: 2px solid #ffffff;
+            padding: 0 4rem;
+        }
     }
     &__copy {
+        color: #8f9496;
+        padding-top: 2rem;
         &:before {
             @include font-heading-bold;
-            content: "Hi, Im Alex McKean -- "
+            content: "Hi, Im Alex McKean -- ";
+            color: #ffffff;
         }
         @include font-heading-light;
         font-size: 1.2rem;

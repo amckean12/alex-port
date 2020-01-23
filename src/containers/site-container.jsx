@@ -10,9 +10,9 @@ class SiteContainer extends Component {
     render() {
         return (
             <div className="port-site">
-                <HeaderComponent siteStyle="neomorphism" />
-                <HeroComponent siteStyle="neomorphism"/>
-                <SkillsComponent siteStyle="neomorphism" />
+                <HeaderComponent siteStyle="dark-minimal" />
+                <HeroComponent siteStyle="dark-minimal" />
+                <SkillsComponent siteStyle="dark-minimal" />
             </div>
         )
     }
